@@ -59,8 +59,8 @@ RUN cd /etc/php5/apache2/conf.d/ \
 RUN mkdir -p /app && rm -rf /var/www/html && ln -s /app /var/www/html
 COPY . /app
 WORKDIR /app
-RUN chmod -R 777 /app
 ONBUILD ADD . /app
+RUN chmod -R 777 /app
 RUN chmod 755 ./start.sh
 
 
@@ -69,4 +69,4 @@ RUN chmod 755 ./start.sh
 EXPOSE 80
 EXPOSE 11211
 
-CMD ["./start.sh"]
+
