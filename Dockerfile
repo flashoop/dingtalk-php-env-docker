@@ -69,4 +69,4 @@ RUN chmod 755 ./start.sh
 EXPOSE 80
 EXPOSE 11211
 
-
+CMD ["./start.sh"]
