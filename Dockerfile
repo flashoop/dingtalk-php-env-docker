@@ -1,8 +1,8 @@
 # Ubuntu 14.04，Trusty Tahr（可靠的塔尔羊）发行版
 FROM daocloud.io/ubuntu:trusty
 
-# 道客船长荣誉出品
-MAINTAINER Captain Dao <support@daocloud.io>
+# 阿里云产品经理修炎出品
+MAINTAINER xiuyan <5641817@qq.com>
 
 # APT 自动安装 PHP 相关的依赖包，如需其他依赖包在此添加
 RUN apt-get update \
