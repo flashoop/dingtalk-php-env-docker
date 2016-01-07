@@ -1,4 +1,4 @@
-# Ubuntu 14.04，Trusty Tahr（可靠的塔尔羊）发行版
+# Ubuntu 14.04
 FROM registry.aliyuncs.com/acs-sample/ubuntu:14.04
 
 # 阿里云产品经理修炎出品
